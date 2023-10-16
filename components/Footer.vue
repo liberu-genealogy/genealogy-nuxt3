@@ -1,120 +1,138 @@
 <template>
-  <div class="container-footer pt-8">
-    <v-row class="footer-container">
-      <v-col cols="12" sm="6" md="3">
-        <div class="footer-text-color d-flex justify-center justify-md-start">
-          <ul class="foot-list-style">
-            <template v-for="(item, i) in contactInfo" :key="i">
-              <div class="d-flex my-2">
-                <v-icon :icon="item.icon"></v-icon>
-                <li class="px-4">{{ item.text }}</li>
-              </div>
-            </template>
-          </ul>
-        </div>
-      </v-col>
+  <div>
+    <div class="container">
+      <v-row class="py-16">
+        <v-col>
+          <div>
+            <h1>Start Your Free Tree Now!</h1>
+            <p>
+              Your first tree is 100% free! If you need more, we offer affordable upgrades via our simple subscription
+              plans. Need help? We can assist you to get started and explain Family Tree 365 features. Any issues? You
+              can always contact our support team.
+            </p>
+          </div>
+        </v-col>
 
-      <v-col cols="12" sm="6" md="3">
-        <div class="d-flex flex-column align-center align-md-center footer-text-color">
-          <h3 class="text-white">Customer Service</h3>
-          <ul>
-            <template v-for="(item, i) in servicesList" :key="i">
-              <li>{{ item }}</li>
-            </template>
-          </ul>
-        </div>
-      </v-col>
+        <v-col align-self="center">
+          <div class="text-center">
+            <v-btn class="home-btn text-white text-capitalize" elevation="0" color="#4FCF8D" size="x-large" rounded
+              >Create Your own Tree
+            </v-btn>
+          </div>
+        </v-col>
+      </v-row>
 
-      <v-col cols="12" sm="6" md="3">
-        <div class="d-flex flex-column align-center align-md-center footer-text-color">
-          <h3 class="text-white ml-n16">Corporation</h3>
-          <ul>
-            <template v-for="(item, i) in corporationList" :key="i">
-              <li>{{ item }}</li>
-            </template>
-          </ul>
-        </div>
-      </v-col>
+      <v-divider></v-divider>
 
-      <v-col cols="12" sm="6" md="3">
-        <div class="d-flex flex-column align-center align-md-end footer-text-color">
-          <h3 class="text-white ml-n10">Why Choose Us</h3>
-          <ul>
-            <template v-for="(item, i) in whyUsList" :key="i">
-              <li>{{ item }}</li>
-            </template>
-          </ul>
-        </div>
-      </v-col>
-    </v-row>
+      <v-row class="py-16">
+        <v-col>
+          <div>
+            <h3>Family Tree 365</h3>
+            <p>Copyright © Family Tree 365 Ltd,</p>
+            <p>Kemp House, 82 James Carter Road, Mildenhall, Suffolk, IP28 7DE</p>
+            <p>Company number: 14652026</p>
+          </div>
+        </v-col>
 
-    <hr class="footer-divider mt-5" />
-    <v-row class="footer-container d-flex justify-space-between py-1">
-      <v-col class="pl-md-0">
-        <div>
-          <v-btn
-            color="white"
-            v-for="icon in socialMediaIcons"
-            :key="icon"
-            class=""
-            :icon="icon"
-            variant="text"
-          ></v-btn>
-        </div>
-      </v-col>
-      <v-spacer></v-spacer>
-      <v-col class="d-flex justify-end pr-md-0">
-        <div>
-          <v-btn
-            color="white"
-            v-for="icon in socialMediaIcons"
-            :key="icon"
-            class=""
-            :icon="icon"
-            variant="text"
-          ></v-btn>
-        </div>
-      </v-col>
-    </v-row>
+        <v-col>
+          <div>
+            <h3>Quick Links</h3>
+            <ul class="foot-list-style">
+              <template v-for="(item, i) in quickLinks" :key="i">
+                <li>{{ item.name }}</li>
+              </template>
+            </ul>
+          </div>
+        </v-col>
+
+        <v-col>
+          <div>
+            <ul class="foot-list-style">
+              <template v-for="(item, i) in moreLinks" :key="i">
+                <li>{{ item.name }}</li>
+              </template>
+            </ul>
+          </div>
+        </v-col>
+
+        <v-col>
+          <div>
+            <h3>Contact Details</h3>
+            <ul class="foot-list-style">
+              <template v-for="(item, i) in contactList" :key="i">
+                <li>{{ item.name }}</li>
+              </template>
+            </ul>
+          </div>
+        </v-col>
+      </v-row>
+
+      <v-divider></v-divider>
+      <div class="d-flex py-10 justify-center">
+        <p class="">Copyright &copy; {{ new Date().getFullYear() }} Family Tree 365 Ltd</p>
+      </div>
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
-const contactInfo = [
-  { text: 'example@gmail.com', icon: 'mdi-email' },
-  { text: 'location', icon: 'mdi-map-marker-outline' },
-  { text: '+44-', icon: 'mdi-phone-outline' }
+const contactList = [
+  {
+    name: 'support@familytree365.com',
+    link: ''
+  },
+  {
+    name: '+44 20 8058 4401',
+    link: ''
+  },
+  {
+    name: '+44 20 8058 4401',
+    link: ''
+  }
 ];
 
-const socialMediaIcons = ['mdi-facebook', 'mdi-twitter', 'mdi-linkedin', 'mdi-instagram'];
+const quickLinks = [
+  {
+    name: 'Home',
+    link: ''
+  },
+  {
+    name: 'Features',
+    link: ''
+  },
+  {
+    name: 'Why Family Tree 365?',
+    link: ''
+  },
+  {
+    name: 'About',
+    link: ''
+  }
+];
 
-const servicesList = ['My Account', 'Order History', 'FQA', 'Help Center'];
-const corporationList = ['About Us', 'Customer Service', 'Company', 'Advance Search', 'Investor Relations'];
-const whyUsList = ['Shopping Guid', 'Blog', 'Company', 'Investor Relations', 'Contact Us'];
+const moreLinks = [
+  {
+    name: 'Sign in',
+    link: ''
+  },
+  {
+    name: 'Privacy Policy',
+    link: ''
+  },
+  {
+    name: 'Terms & Conditions',
+    link: ''
+  }
+];
 </script>
 
 <style scoped>
-.footer-container {
-  max-width: 80% !important;
-  margin: 0 auto !important;
-}
-
-.container-footer {
-  background-color: #2e353b;
-  position: relative;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-}
-.footer-text-color {
-  color: #abafb1;
-}
-
-.footer-divider {
-  color: #eaedee;
-}
-
 .foot-list-style {
   list-style-type: none;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
 }
 </style>
