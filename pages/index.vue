@@ -1,14 +1,11 @@
 <template>
-  <div class="container">
-    <div class="text-center">{{ appTitle }}</div>
+  <div>
+    <home-products />
+    <home-why-us />
+    <home-manage />
   </div>
 </template>
 
-<script setup lang="ts">
-import { useExampleStore } from '~/store/exampleStore';
-
-const exampleStore = useExampleStore();
-const appTitle = computed(() => exampleStore.getAppTitle);
-</script>
+<script setup lang="ts"></script>
 
 <style scoped></style>
