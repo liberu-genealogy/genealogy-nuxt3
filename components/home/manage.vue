@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex flex-column justify-center align-center container py-15">
     <div class="text-center">
-      <h1>Create & manage your family tree</h1>
+      <h1 class="app-heading-1 font-size-sm-24 line-height-36">Create & manage your family tree</h1>
 
       <p class="py-4">
         Family Tree 365 lets you create and manage your family tree the quick and easy way. Register to access our

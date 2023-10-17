@@ -1,11 +1,11 @@
 <template>
-  <div>
-    <div class="container">
+  <div class="bg-image">
+    <div class="container footer">
       <v-row class="py-16">
-        <v-col>
+        <v-col cols="12" md="8">
           <div>
-            <h1>Start Your Free Tree Now!</h1>
-            <p>
+            <h1 class="app-heading-1 font-size-sm-24 line-height-36">Start Your Free Tree Now!</h1>
+            <p class="font-size-16 line-height-24">
               Your first tree is 100% free! If you need more, we offer affordable upgrades via our simple subscription
               plans. Need help? We can assist you to get started and explain Family Tree 365 features. Any issues? You
               can always contact our support team.
@@ -13,9 +13,9 @@
           </div>
         </v-col>
 
-        <v-col align-self="center">
-          <div class="text-center">
-            <v-btn class="home-btn text-white text-capitalize" elevation="0" color="#4FCF8D" size="x-large" rounded
+        <v-col cols="12" md="4" align-self="center">
+          <div class="text-md-center">
+            <v-btn class="text-white text-capitalize" elevation="0" color="#4FCF8D" rounded
               >Create Your own Tree
             </v-btn>
           </div>
@@ -25,8 +25,8 @@
       <v-divider></v-divider>
 
       <v-row class="py-16">
-        <v-col>
-          <div>
+        <v-col cols="12" md="4">
+          <div class="font-size-14">
             <h3>Family Tree 365</h3>
             <p>Copyright © Family Tree 365 Ltd,</p>
             <p>Kemp House, 82 James Carter Road, Mildenhall, Suffolk, IP28 7DE</p>
@@ -34,10 +34,10 @@
           </div>
         </v-col>
 
-        <v-col>
+        <v-col cols="6" md="4">
           <div>
             <h3>Quick Links</h3>
-            <ul class="foot-list-style">
+            <ul class="foot-list-style font-size-14">
               <template v-for="(item, i) in quickLinks" :key="i">
                 <li>{{ item.name }}</li>
               </template>
@@ -45,9 +45,9 @@
           </div>
         </v-col>
 
-        <v-col>
+        <v-col cols="6" md="4">
           <div>
-            <ul class="foot-list-style">
+            <ul class="foot-list-style font-size-14">
               <template v-for="(item, i) in moreLinks" :key="i">
                 <li>{{ item.name }}</li>
               </template>
@@ -55,7 +55,7 @@
           </div>
         </v-col>
 
-        <v-col>
+        <v-col cols="12" md="4">
           <div>
             <h3>Contact Details</h3>
             <ul class="foot-list-style">
@@ -134,5 +134,10 @@ const moreLinks = [
 .container {
   max-width: 80%;
   margin: 0 auto;
+}
+
+.bg-image {
+  background: url('images/footer-bg.png') no-repeat;
+  background-size: cover;
 }
 </style>

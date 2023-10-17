@@ -1,5 +1,6 @@
 <template>
   <div>
+    <home-hero />
     <home-products />
     <home-why-us />
     <home-manage />

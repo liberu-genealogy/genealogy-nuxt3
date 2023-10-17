@@ -1,7 +1,7 @@
 <template>
   <div class="container d-flex align-center justify-center">
     <div class="products-container">
-      <h1>Our Product Features</h1>
+      <h1 class="app-heading-1 font-size-sm-24 line-height-36">Our Product Features</h1>
 
       <v-row>
         <v-col cols="12" md="4" v-for="(product, i) in products" :key="i">
@@ -11,7 +11,7 @@
             </div>
             <div>
               <h3>{{ product.title }}</h3>
-              <p>{{ product.description }}</p>
+              <p class="font-size-16 line-height-24">{{ product.description }}</p>
             </div>
           </div>
         </v-col>
