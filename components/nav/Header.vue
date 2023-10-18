@@ -2,7 +2,7 @@
   <div class="d-flex nav py-4 px-4 px-md-8" :class="{ clearHeader: isClear, darkHeader: isDark }">
     <div class="logo">
       <a class="navbar-item" href="#">
-        <img src="images/logo1.svg" />
+        <img src="/images/logo1.svg" />
       </a>
     </div>
     <v-spacer></v-spacer>

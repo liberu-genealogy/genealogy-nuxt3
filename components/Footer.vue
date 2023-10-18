@@ -135,9 +135,4 @@ const moreLinks = [
   max-width: 80%;
   margin: 0 auto;
 }
-
-.bg-image {
-  background: url('images/footer-bg.png') no-repeat;
-  background-size: cover;
-}
 </style>

@@ -7,7 +7,7 @@
         <v-col cols="12" md="4" v-for="(product, i) in products" :key="i">
           <div class="py-6">
             <div class="py-2">
-              <img :src="`${product.image}`" alt="" />
+              <img :src="`/${product.image}`" alt="" />
             </div>
             <div>
               <h3>{{ product.title }}</h3>

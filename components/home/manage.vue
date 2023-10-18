@@ -12,9 +12,9 @@
 
     <div class="flex-grow-1">
       <v-carousel cycle height="80vh" :show-arrows="false" hide-delimiters>
-        <v-carousel-item src="images/mockup01@2x.webp"></v-carousel-item>
-        <v-carousel-item src="images/mockup03@2x.webp"></v-carousel-item>
-        <v-carousel-item src="images/mockup03@2x.webp"></v-carousel-item>
+        <v-carousel-item src="/images/mockup01@2x.webp"></v-carousel-item>
+        <v-carousel-item src="/images/mockup03@2x.webp"></v-carousel-item>
+        <v-carousel-item src="/images/mockup03@2x.webp"></v-carousel-item>
       </v-carousel>
     </div>
   </div>
