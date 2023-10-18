@@ -1,11 +1,10 @@
 <template>
-  <v-container>
+  <div class="px-4 px-md-0">
     <v-row>
-      <v-col cols="12" md="6">
-        <div>
-          <img src="images/sd.svg" class="flot-block" alt="" />
-        </div>
+      <v-col class="d-flex justify-center justify-md-start" cols="12" md="6">
+        <img src="images/sd.svg" class="section-image" alt="" />
       </v-col>
+
       <v-col cols="12" md="6" class="d-flex align-center">
         <div class="pr-6">
           <h1 class="app-heading-1 font-size-sm-24 line-height-36">Why Choose Family Tree 365?</h1>
@@ -40,7 +39,7 @@
         </div>
       </v-col>
     </v-row>
-  </v-container>
+  </div>
 </template>
 
 <script setup lang="ts"></script>
@@ -48,5 +47,10 @@
 <style scoped>
 .container {
   min-height: 80vh;
+}
+
+.section-image {
+  height: auto;
+  max-width: 100%;
 }
 </style>

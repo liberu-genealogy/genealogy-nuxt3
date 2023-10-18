@@ -8,7 +8,7 @@
     <v-spacer></v-spacer>
     <div class="d-none d-lg-block text-capitalize">
       <template v-for="(item, i) in navMenu" :key="i">
-        <NuxtLink class="px-4 link-style text-white" :to="item.link"> {{ item.name }} </NuxtLink>
+        <NuxtLink class="px-4 my-link text-white" :to="item.link"> {{ item.name }} </NuxtLink>
       </template>
       <v-btn elevation="1" class="home-btn text-white text-capitalize" color="red" rounded>Create Your own Tree </v-btn>
     </div>
@@ -54,8 +54,9 @@ onMounted(() => window.addEventListener('scroll', handleScroll));
   }
 }
 
-.link-style {
+.my-link {
   list-style-type: none !important;
+  text-decoration: none;
 }
 
 .nav .logo {
