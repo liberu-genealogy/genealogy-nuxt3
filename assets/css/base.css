@@ -39,6 +39,18 @@ body {
   padding: 26px !important;
 }
 
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(0 0 0 / 10%) !important;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgb(79 207 141 / 100%) !important;
+}
+
 @media screen and (max-width: 1024px) {
   .btn-sm {
     height: 40px !important;

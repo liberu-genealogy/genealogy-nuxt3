@@ -15,7 +15,7 @@
 
         <v-col cols="12" md="4" align-self="center">
           <div class="text-md-center">
-            <v-btn class="text-white text-capitalize" elevation="0" color="#4FCF8D" rounded
+            <v-btn class="text-white text-capitalize pt-md-4 pb-md-8" elevation="0" color="#4FCF8D" rounded
               >Create Your own Tree
             </v-btn>
           </div>

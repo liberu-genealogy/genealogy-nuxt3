@@ -1,5 +1,5 @@
 <template>
-  <div class="px-4 px-md-0">
+  <div class="px-4 px-md-0" id="why-us">
     <v-row>
       <v-col class="d-flex justify-center justify-md-start" cols="12" md="6">
         <img src="images/sd.svg" class="section-image" alt="" />
@@ -33,7 +33,7 @@
             </p>
           </div>
 
-          <v-btn class="text-white text-capitalize btn-sm" elevation="0" color="#4FCF8D" rounded
+          <v-btn class="text-white text-capitalize btn-sm pt-md-4 pb-md-8" elevation="0" color="#4FCF8D" rounded
             >Create Your own Tree</v-btn
           >
         </div>

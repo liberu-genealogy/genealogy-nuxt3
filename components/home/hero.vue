@@ -19,7 +19,9 @@
         </div>
 
         <div>
-          <v-btn elevation="2" class="text-white text-capitalize" color="red" rounded>Create Your own Tree </v-btn>
+          <v-btn elevation="2" class="text-white text-capitalize pt-md-4 pb-md-8" color="red" rounded
+            >Create Your own Tree
+          </v-btn>
           <div class="py-4"><nuxt-link to="">Already have an account? Sign in</nuxt-link></div>
         </div>
       </v-col>
@@ -35,7 +37,14 @@
 }
 
 .bg-image {
-  background: url('images/main-hero.png') no-repeat;
+  background: url('images/main-hero.png') no-repeat center;
   background-size: cover;
+}
+
+@media screen and (min-width: 1024px) {
+  .bg-image {
+    background: url('images/main-hero.png') no-repeat;
+    background-size: cover;
+  }
 }
 </style>

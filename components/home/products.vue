@@ -1,5 +1,5 @@
 <template>
-  <div class="container d-flex align-center justify-center">
+  <div class="container d-flex align-center justify-center" id="features">
     <div class="products-container">
       <h1 class="app-heading-1 font-size-sm-24 line-height-36">Our Product Features</h1>
 
