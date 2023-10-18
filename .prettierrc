@@ -3,7 +3,7 @@
   "tabWidth": 2,
   "trailingComma": "none",
   "singleQuote": true,
-  "endOfLine" : "auto",
+  "endOfLine": "auto",
   "printWidth": 120,
   "editor.formatOnSave": true
 }
