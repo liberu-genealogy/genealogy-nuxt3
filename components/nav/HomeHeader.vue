@@ -1,7 +1,7 @@
 <template>
   <div class="hero-section bg-image">
     <div>
-      <nav-header />
+      <nav-home-nav-bar />
     </div>
 
     <v-row justify="center" class="d-flex flex-column align-center text-white pt-16">

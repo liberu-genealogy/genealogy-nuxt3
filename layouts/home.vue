@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <nav-header />
+    <nav-home-header />
     <slot />
     <Footer />
   </v-app>
