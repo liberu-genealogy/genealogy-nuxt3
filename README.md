@@ -1,7 +1,7 @@
-# Liberu Ecommerce
+# Liberu genealogy
 
-![Latest Stable Version](https://img.shields.io/github/release/liberu-ecommerce/ecommerce-nuxt.svg)
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/liberu-ecommerce/ecommerce-nuxt/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/liberu-ecommerce/ecommerce-nuxt/tree/main)
+![Latest Stable Version](https://img.shields.io/github/release/liberu-genealogy/genealogy-nuxt3.svg)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/liberu-genealogy/genealogy-nuxt3/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/liberu-genealogy/genealogy-nuxt3/tree/main)
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
