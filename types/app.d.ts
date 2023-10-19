@@ -1,5 +1,13 @@
 export interface Blog {
   id: number;
-  blog: string;
+  title: string;
   description: string;
+}
+
+export interface BlogResponse {
+  data: Array<{
+    id: number;
+    title: string;
+    description: Array<string>;
+  }>;
 }

@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@mdi/font": "^7.3.67",
+    "@nuxt/content": "^2.8.5",
     "@pinia/nuxt": "^0.4.11",
     "eslint-plugin-vue": "^9.17.0",
     "pinia": "^2.1.6",

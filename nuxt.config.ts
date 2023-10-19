@@ -29,6 +29,7 @@ export default defineNuxtConfig({
     transpile: ['vuetify']
   },
   modules: [
+    '@nuxt/content',
     [
       '@pinia/nuxt',
       {
