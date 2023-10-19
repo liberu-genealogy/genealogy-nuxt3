@@ -1,5 +1,5 @@
 <template>
-  <div class="hero-section bg-image">
+  <div class="hero-section bg-image" :style="{ backgroundImage: `url('images/main-hero.webp')` }">
     <div>
       <nav-home-nav-bar />
     </div>
@@ -37,14 +37,16 @@
 }
 
 .bg-image {
-  background: url('images/main-hero.png') no-repeat center;
   background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 1024px) {
   .bg-image {
-    background: url('images/main-hero.png') no-repeat;
     background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
   }
 }
 </style>
