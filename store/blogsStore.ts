@@ -12,7 +12,7 @@ export const useBlogsStore = defineStore('blogsStore', {
   },
 
   actions: {
-    setBlog(id: number) {
+    async setBlog(id: number) {
       const blog = this.blogs.find((blog) => blog.id === id);
       if (blog) this.blog = { ...blog };
     },

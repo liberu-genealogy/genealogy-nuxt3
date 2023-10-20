@@ -25,6 +25,10 @@ body {
   line-height: 30px;
 }
 
+.line-height-35 {
+  line-height: 35px;
+}
+
 .line-height-24 {
   line-height: 24px;
 }
@@ -51,6 +55,15 @@ body::-webkit-scrollbar-thumb {
   background: rgb(79 207 141 / 100%) !important;
 }
 
+.page-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.full-page-view-height {
+  min-height: 100vh;
+}
+
 @media screen and (max-width: 1024px) {
   .btn-sm {
     height: 40px !important;
@@ -61,6 +74,10 @@ body::-webkit-scrollbar-thumb {
 
   .font-size-sm-13 {
     font-size: 13px;
+  }
+
+  .font-size-sm-18 {
+    font-size: 18px;
   }
 
   .font-size-sm-24 {

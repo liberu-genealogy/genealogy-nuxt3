@@ -47,6 +47,7 @@
     background-size: cover;
     background-position-x: center;
     background-repeat: no-repeat;
+    background-color: #4fcf8d;
   }
 }
 </style>
