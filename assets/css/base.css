@@ -4,6 +4,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .app-heading-1 {
   font-size: 40px;
   line-height: 60px;

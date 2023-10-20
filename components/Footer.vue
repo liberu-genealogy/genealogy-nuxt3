@@ -49,7 +49,9 @@
           <div>
             <ul class="foot-list-style font-size-14">
               <template v-for="(item, i) in moreLinks" :key="i">
-                <li>{{ item.name }}</li>
+                <li>
+                  <NuxtLink class="link-style" :to="item.link">{{ item.name }}</NuxtLink>
+                </li>
               </template>
             </ul>
           </div>
@@ -117,11 +119,11 @@ const moreLinks = [
   },
   {
     name: 'Privacy Policy',
-    link: ''
+    link: '/privacy'
   },
   {
     name: 'Terms & Conditions',
-    link: ''
+    link: '/termsandconditions'
   }
 ];
 </script>
@@ -129,6 +131,11 @@ const moreLinks = [
 <style scoped>
 .foot-list-style {
   list-style-type: none;
+}
+
+.link-style {
+  text-decoration: none;
+  color: black;
 }
 
 .container {
