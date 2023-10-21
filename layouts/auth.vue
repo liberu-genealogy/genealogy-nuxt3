@@ -11,14 +11,14 @@
 
           <div class="py-6 d-none d-md-block">
             <div class="d-flex py-4">
-              <img src="images/bcheckmark.webp" alt="" class="bullet mt-2 mr-3 icon-size" />
+              <img src="/images/bcheckmark.webp" alt="" class="bullet mt-2 mr-3 icon-size" />
               <p class="font-size-14 line-height-24">
                 Discover Family Tree 365: Your free gateway to uncovering your roots! Build your family tree, connect
                 with DNA matches, and explore historical records. Start your journey now.
               </p>
             </div>
             <div class="d-flex py-4">
-              <img src="images/bcheckmark.webp" alt="" class="bullet mt-2 mr-3 icon-size" />
+              <img src="/images/bcheckmark.webp" alt="" class="bullet mt-2 mr-3 icon-size" />
               <p class="font-size-14 line-height-24">
                 The platform offers a wide range of features, including numerous charts, reports, and public member
                 trees for easy searching. Additionally, it provides robust DNA support. Furthermore, there are exciting
@@ -27,7 +27,7 @@
               </p>
             </div>
             <div class="d-flex py-4">
-              <img src="images/bcheckmark.webp" alt="" class="bullet mt-2 mr-3 icon-size" />
+              <img src="/images/bcheckmark.webp" alt="" class="bullet mt-2 mr-3 icon-size" />
               <p class="font-size-14 line-height-24">
                 Begin your family tree journey today with our free setup. Enjoy the added benefit of DNA matching at no
                 cost. Choose from a variety of pricing tiers tailored to your needs, whether you require multiple trees

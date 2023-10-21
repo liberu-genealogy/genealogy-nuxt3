@@ -8,6 +8,14 @@ ul {
   list-style-type: none;
 }
 
+.link-style {
+  text-decoration: none;
+}
+
+.primary-color {
+  color: #4fcf8d;
+}
+
 .app-heading-1 {
   font-size: 40px;
   line-height: 60px;
