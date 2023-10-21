@@ -22,7 +22,7 @@
           <v-btn elevation="2" class="text-white text-capitalize pt-md-4 pb-md-8" color="red" rounded
             >Create Your own Tree
           </v-btn>
-          <div class="py-4"><nuxt-link to="">Already have an account? Sign in</nuxt-link></div>
+          <div class="py-4"><nuxt-link to="/login">Already have an account? Sign in</nuxt-link></div>
         </div>
       </v-col>
     </v-row>

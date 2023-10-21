@@ -1,7 +1,6 @@
 <template>
   <div class="d-flex align-center container">
     <div class="flex-grow-1">
-      <!-- <h1 class="primary-color">Back to Home</h1> -->
       <NuxtLink to="/register" class="link-style primary-color font-size-20">Back to Home</NuxtLink>
       <h2>Sign in to your account</h2>
 

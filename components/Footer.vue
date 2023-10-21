@@ -96,7 +96,7 @@ const contactList = [
 const quickLinks = [
   {
     name: 'Home',
-    link: ''
+    link: '/'
   },
   {
     name: 'Features',
@@ -115,7 +115,7 @@ const quickLinks = [
 const moreLinks = [
   {
     name: 'Sign in',
-    link: ''
+    link: '/login'
   },
   {
     name: 'Privacy Policy',

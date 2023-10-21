@@ -31,7 +31,7 @@ const navMenu = [
   { name: 'Features', link: '#features' },
   { name: 'Why Family Tree 365', link: '#why-us' },
   { name: 'Blog', link: '/blog' },
-  { name: 'Sign in', link: '/' }
+  { name: 'Sign in', link: '/login' }
 ];
 
 function logoutAccount() {}

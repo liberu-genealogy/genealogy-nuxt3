@@ -4,9 +4,9 @@
       <v-col cols="12" md="5" class="section-background text-white pt-14">
         <div class="section-content d-flex justify-center flex-column align-center">
           <div class="logo">
-            <a class="navbar-item" href="#">
+            <nuxt-link class="navbar-item" to="/">
               <img src="/images/logo1.svg" />
-            </a>
+            </nuxt-link>
           </div>
 
           <div class="py-6 d-none d-md-block">
