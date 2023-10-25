@@ -8,10 +8,9 @@
       </div>
       <div class="flex-grow-1">
         <slot />
+        <footer-login-user-footer />
       </div>
     </v-main>
-
-    <footer-login-user-footer />
   </v-app>
 </template>
 
