@@ -16,6 +16,14 @@ ul {
   color: #4fcf8d;
 }
 
+.color-primary {
+  color: rgb(79 207 141 / 100%) !important;
+}
+
+.primary-bg-color {
+  background: rgb(79 207 141 / 100%) !important;
+}
+
 .app-heading-1 {
   font-size: 40px;
   line-height: 60px;
